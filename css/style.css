@@ -1,0 +1,41 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+main, footer {
+    background: #151515;
+}
+
+header {
+    background: #000000;
+    padding: 120px 0;
+}
+
+h1 {
+    font-family: 'Berkshire Swash';
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF5E19;
+}
+
+.header-control img {
+    position: absolute;
+    right: 20%;
+    /* top: 27%; */
+}
+
+.header-player {
+    position: absolute;
+    left: 0;
+    bottom: -27px;
+    width: 25%;
+}
+
+.header-card {
+    position: absolute;
+    right: 5%;
+    top: 13%;
+}
