@@ -62,9 +62,30 @@ main .card-text {
 
 .sidebar-items {
     background: #0D0D0D;
-    min-height: 250px;
+    min-height: 200;
 }
 
 .sidebar-items ol li {
     padding: 5px 0;
+}
+
+.sidebar-items label,
+.sidebar-items p {
+    color: #AFAFAF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sidebar-items p span {
+    color: #fff;
+}
+
+.col-form,
+.totalColor {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+#playerTotal {
+    color: #FF5E19;
 }

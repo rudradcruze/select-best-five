@@ -189,8 +189,52 @@
                         </div>
                         <div class="sidebar-body pt-3 text-white text-start">
                             <ol>
-                                <li>Hi</li>
+
                             </ol>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-items text-center p-4 mt-5">
+                        <div class="sidebar-item-title text-white">
+                            <h3>Budget</h3>
+                            <img src="images/bottom-stripe.png" class="sidebar-stripe"  alt="---">
+                        </div>
+                        <div class="sidebar-body pt-3 text-white text-start">
+                            <div class="row align-items-center">
+                                <div class="col-auto d-flex">
+                                    <div class="col-lg-5 col-md-5 col">
+                                        <label for="playerBudget" class="col-form-label pe-3">Per Player: </label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <input type="number" min="0" id="playerBudget" class="form-control w-50 bg-transparent text-white">
+                                    </div>
+                                </div>
+                                <button class="btn button-select mt-5 btn-lg" id="playerBudgetCalculation">Calculate</button>
+                                <div class="col-auto d-flex mt-3">
+                                    <p class="col-form-label pe-3">Player Expenses: <span class="ps-3">$</span><span class="" id="playerExpences">00</span></p>
+                                </div>
+                                <div class="col-auto d-flex mt-2">
+                                    <div class="col-lg-5 col-md-5 col">
+                                        <label for="playerBudget" class="col-form-label pe-3">Manager: </label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <input type="number" min="0" id="playerBudget" class="form-control w-50 bg-transparent text-white">
+                                    </div>
+                                </div>
+                                <div class="col-auto d-flex mt-2">
+                                    <div class="col-lg-5 col-md-5 col">
+                                        <label for="playerBudget" class="col-form-label pe-3">Coach: </label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <input type="number" min="0" id="playerBudget" class="form-control w-50 bg-transparent text-white">
+                                    </div>
+                                </div>
+                                <button class="btn button-select mt-4 mb-2 btn-lg" id="calculateTotal">Calculate Total</button>
+                                <div class="d-flex mt-3 justify-content-between">
+                                    <p class="col-form">Total: </p>
+                                    <p class="totalColor">$<span class="" id="playerTotal">00</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
