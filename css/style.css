@@ -39,3 +39,23 @@ h1 {
     right: 5%;
     top: 13%;
 }
+
+main .card-title {
+    font-weight: 800 !important;
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+}
+
+main .card-text {
+    font-size: 18px !important;
+    color: #B3B3B3;
+}
+
+.button-select {
+    background: #015196;
+    color: #fff;
+}
+
+.button-select:hover {
+    background: #01447e !important;
+}
