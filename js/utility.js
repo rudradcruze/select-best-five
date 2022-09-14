@@ -29,6 +29,12 @@ function getInputValueById(elementId) {
     return elementValue;
 }
 
+function getTextValueById(elementId) {
+    const element = document.getElementById(elementId);
+    const elementValue = parseInt(element.innerText);
+    return elementValue;
+}
+
 function setTextValueById(elementId, amount) {
     const element = document.getElementById(elementId);
     element.innerText = amount;

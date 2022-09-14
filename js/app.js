@@ -19,6 +19,14 @@ document.getElementById('playerBudgetCalculation').addEventListener('click', fun
     }
 
     const playerExpenses = getPlayerCost * getPlayers;
-    console.log(playerExpenses);
     setTextValueById('playerExpences', playerExpenses)
+})
+
+document.getElementById('calculateTotal').addEventListener('click', function (){
+    const managerCost = getInputValueById('managerCost');
+    const coachCost = getInputValueById('coachCost');
+    const playerExpenses = getTextValueById('playerExpences');
+
+    const calculateTotal = managerCost + coachCost + playerExpenses;
+    setTextValueById('playerTotal', calculateTotal);
 })
