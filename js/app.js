@@ -11,5 +11,14 @@ for (const player of playerList) {
 
 document.getElementById('playerBudgetCalculation').addEventListener('click', function (){
     const getPlayerCost = getInputValueById('playerBudget');
-    console.log(getPlayerCost);
+    const getPlayers = playerCount('playerContainer');
+
+    if (getPlayers < 1) {
+        alert('Please select at least 1 player');
+        return;
+    }
+
+    const playerExpenses = getPlayerCost * getPlayers;
+    console.log(playerExpenses);
+    setTextValueById('playerExpences', playerExpenses)
 })

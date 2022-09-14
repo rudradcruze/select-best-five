@@ -86,6 +86,7 @@ main .card-text {
     font-weight: 700 !important;
 }
 
-#playerTotal {
-    color: #FF5E19;
+#playerTotal,
+.totalColor {
+    color: #FF5E19 !important;
 }

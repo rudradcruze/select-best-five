@@ -21,6 +21,15 @@ function playerCount(elementId) {
 function getInputValueById(elementId) {
     const element = document.getElementById(elementId);
     const elementValue = parseInt(element.value);
+    if (isNaN(elementValue)) {
+        alert('Please enter a valid amount');
+        return 0;
+    }
     element.value = '';
     return elementValue;
+}
+
+function setTextValueById(elementId, amount) {
+    const element = document.getElementById(elementId);
+    element.innerText = amount;
 }
